@@ -17,8 +17,9 @@
                 {{ error.$property }} {{ error.$message }}
               </small>
           </div>
+
           <div class="form-field">
-            <label for="Date" class="vtestname" id="dob">Date of Birth</label>
+            <label for="Date" class="vtestname" >Date of Birth</label>
             <input type="date" name="dob" id="dob" class="registrationform" v-model.trim="dob" />
               <small
                   class="error"
@@ -26,7 +27,7 @@
                   :key="index"
                 >
                   {{ error.$property }} {{ error.$message }}
-                </small>
+              </small>
           </div>  
 
           <label for="" class="vtestname">Occupation</label>
